@@ -14,7 +14,7 @@ func main() {
 
 	rand.Seed(time.Now().Unix())
 
-	for i := 0; i < 10; i++ {
+	for i := 0; i < 15; i++ {
 
 		fmt.Println("Starting random depositing № ", i+1)
 		go bank.RandDeposit(C)
