@@ -19,7 +19,7 @@ type BankClient interface {
 	Balance() int
 }
 
-// in-memory account db for 1 client
+// in-memory account db for 1 clientttt
 type Client struct {
 	m       sync.RWMutex
 	account int
